@@ -9,7 +9,11 @@ import java.util.Iterator;
 public class HoursMain {
     public static void main(String[] args) {
         // Let's start with an empty queue. We'll add students, etc. at a later date.
+
+        //Iterator has a next function
         Iterator<Student> studentIterator = new ArrayList<Student>().iterator();
+
+        //takes in iterator and topic before dispating
         HoursDispatcherBasic disp = new HoursDispatcherBasic(studentIterator,
                 "Let's talk about patterns!");
 

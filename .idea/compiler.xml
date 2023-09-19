@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="sep07-generics" />
+        <module name="queue_manager_2 (1)" />
+        <module name="jan31-seatingsorting (1)" />
+        <module name="jan26-generics" />
+        <module name="F22" />
+        <module name="java_repl_sketch" />
+        <module name="seatingSorting" />
+        <module name="selenium_demo" />
+        <module name="queue_manager_2" />
+        <module name="fall22" />
+        <module name="csvRegex" />
+        <module name="queue_manager (1)" />
+        <module name="specifyingMedian" />
+        <module name="mostCommonGeneric" />
+        <module name="S22" />
+        <module name="mbt_pbt" />
+        <module name="jan31-seatingsorting" />
+        <module name="queue_manager" />
+        <module name="whyEqualsMatters" />
+        <module name="java_repl_sketch (1)" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="csvRegex" target="17" />
+      <module name="F22" target="18" />
+      <module name="fall22" target="17" />
+      <module name="jan26-generics" target="17" />
+      <module name="jan31-seatingsorting" target="17" />
+      <module name="jan31-seatingsorting (1)" target="17" />
+      <module name="java_repl_sketch" target="18" />
+      <module name="java_repl_sketch (1)" target="17" />
+      <module name="mbt_pbt" target="18" />
+      <module name="mostCommonGeneric" target="17" />
+      <module name="queue_manager" target="18" />
+      <module name="queue_manager (1)" target="18" />
+      <module name="queue_manager_2" target="18" />
+      <module name="queue_manager_2 (1)" target="18" />
+      <module name="S22" target="11" />
+      <module name="seatingSorting" target="17" />
+      <module name="selenium_demo" target="18" />
+      <module name="sep07-generics" target="17" />
+      <module name="specifyingMedian" target="18" />
+      <module name="whyEqualsMatters" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

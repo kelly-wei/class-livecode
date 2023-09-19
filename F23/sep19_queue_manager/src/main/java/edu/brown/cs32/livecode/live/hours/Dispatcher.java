@@ -8,5 +8,5 @@ import java.util.Map;
  * returning a map so the caller can look it up for any TA.
  */
 public interface Dispatcher {
-    Map<TA, Integer> getMinutesLeft();
+    Map<TA, Integer> getMinutesLeft();      //how many hours is the TA on duty
 }

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/F22/injectComparator/F22.iml" filepath="$PROJECT_DIR$/F22/injectComparator/F22.iml" />
+      <module fileurl="file://$PROJECT_DIR$/old/S22/S22.iml" filepath="$PROJECT_DIR$/old/S22/S22.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/class-livecode.iml" filepath="$PROJECT_DIR$/.idea/class-livecode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/F23/vignettes/csvRegex/csvRegex.iml" filepath="$PROJECT_DIR$/F23/vignettes/csvRegex/csvRegex.iml" />
+      <module fileurl="file://$PROJECT_DIR$/S23/mar21_server_review/fall22.iml" filepath="$PROJECT_DIR$/S23/mar21_server_review/fall22.iml" />
+      <module fileurl="file://$PROJECT_DIR$/S23/jan26-generics/jan26-generics.iml" filepath="$PROJECT_DIR$/S23/jan26-generics/jan26-generics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/F23/sep12-seatingsorting/jan31-seatingsorting.iml" filepath="$PROJECT_DIR$/F23/sep12-seatingsorting/jan31-seatingsorting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/S23/jan31-seatingsorting/jan31-seatingsorting (1).iml" filepath="$PROJECT_DIR$/S23/jan31-seatingsorting/jan31-seatingsorting (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/F22/java_repl_sketch/java_repl_sketch.iml" filepath="$PROJECT_DIR$/F22/java_repl_sketch/java_repl_sketch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/S23/feb16-repl/java_repl_sketch (1).iml" filepath="$PROJECT_DIR$/S23/feb16-repl/java_repl_sketch (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/F22/mbt_pbt/mbt_pbt.iml" filepath="$PROJECT_DIR$/F22/mbt_pbt/mbt_pbt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/F22/mostCommonGeneric/mostCommonGeneric.iml" filepath="$PROJECT_DIR$/F22/mostCommonGeneric/mostCommonGeneric.iml" />
+      <module fileurl="file://$PROJECT_DIR$/F22/queue_manager/queue_manager.iml" filepath="$PROJECT_DIR$/F22/queue_manager/queue_manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/S23/feb28_queue_manager/queue_manager (1).iml" filepath="$PROJECT_DIR$/S23/feb28_queue_manager/queue_manager (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/F22/queue_manager_2/queue_manager_2.iml" filepath="$PROJECT_DIR$/F22/queue_manager_2/queue_manager_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/S23/mar02_queue_manager_2/queue_manager_2 (1).iml" filepath="$PROJECT_DIR$/S23/mar02_queue_manager_2/queue_manager_2 (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/F22/seatingSorting/seatingSorting.iml" filepath="$PROJECT_DIR$/F22/seatingSorting/seatingSorting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/F22/selenium_demo/selenium_demo.iml" filepath="$PROJECT_DIR$/F22/selenium_demo/selenium_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/F23/sep07-generics/sep07-generics.iml" filepath="$PROJECT_DIR$/F23/sep07-generics/sep07-generics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/F22/specifyingMedian_TestingExceptions/specifyingMedian.iml" filepath="$PROJECT_DIR$/F22/specifyingMedian_TestingExceptions/specifyingMedian.iml" />
+      <module fileurl="file://$PROJECT_DIR$/S23/feb02-equality/whyEqualsMatters.iml" filepath="$PROJECT_DIR$/S23/feb02-equality/whyEqualsMatters.iml" />
+    </modules>
+  </component>
+</project>

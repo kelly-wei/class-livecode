@@ -9,6 +9,10 @@ import java.util.Map;
  *   some better field modifiers (like final)
  *   defensive copy on return value of getMinutesLeft()
  */
+
+//GOAL: reading an updated copy but not writing to a modified state
+    //Proxy pattern - real data source is wrapped
+
 public class HoursDispatcherDefensive implements Dispatcher {
     final private Iterator<Student> queue;
     final private Map<TA, Integer> minutesLeft;

@@ -18,6 +18,13 @@ import java.util.concurrent.TimeUnit;
 public class CachedFileSearcher implements Searcher<String,String> {
     private final Searcher<String,String> wrappedSearcher;
     private final LoadingCache<String, Collection<String>> cache;
+
+    /*
+    Worries about a cache: correct answers, space allocated, when to remove stale entries
+    Guava will take care of it :)
+
+    CacheBuilder - builds cache objects
+     */
     public CachedFileSearcher(Searcher<String,String> toWrap) {
         this.wrappedSearcher = toWrap;
 
@@ -28,11 +35,14 @@ public class CachedFileSearcher implements Searcher<String,String> {
                 .maximumSize(10)
                 // How long should entries remain in the cache?
                 .expireAfterWrite(1, TimeUnit.MINUTES)
-                // Keep statistical info around for profiling purposes
+                // Keep statistical info around for profiling purposes/debugging
                 .recordStats()
                 .build(
                         // Strategy pattern: how should the cache behave when
                         // it's asked for something it doesn't have?
+                        /*
+                        .load - called when search fails + it's not in the cache - tells the cache what to do if it can't find the object to be searched
+                         */
                         new CacheLoader<>() {
                             @Override
                             public Collection<String> load(String key)  {
@@ -43,6 +53,7 @@ public class CachedFileSearcher implements Searcher<String,String> {
                         });
     }
 
+    // when is the cache updated/things get into it?
     @Override
     public Collection<String> search(String target) {
         // "get" is designed for concurrent situations; for today, use getUnchecked:

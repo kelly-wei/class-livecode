@@ -6,6 +6,11 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Simple version of CSV parser
+ * Speeds things up with caching
+ */
+
 public class FileSearcher implements Searcher {
     private final List<String> lines = new ArrayList<>();
 

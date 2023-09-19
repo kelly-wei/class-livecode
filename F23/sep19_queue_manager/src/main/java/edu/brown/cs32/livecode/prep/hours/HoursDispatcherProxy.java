@@ -21,7 +21,10 @@ public class HoursDispatcherProxy implements Dispatcher {
     private Map<TA, Integer> public_minutes_left = null;
     public Map<TA, Integer> getMinutesLeft() {
         if(public_minutes_left == null) {
-            public_minutes_left = Collections.unmodifiableMap(minutesLeft);
+            public_minutes_left = Collections.unmodifiableMap(minutesLeft);     // creating a fake/proxy object --> impelemented in a way where the constructor takes in the real data source (map)
+            //enables reading, prevents writing
+            // original datasource is private final - no one but within the class can modify it
+            // essentially the messenger/playing telephone w/ proxy object wrapped around actual object
         }
         return public_minutes_left;
     }
