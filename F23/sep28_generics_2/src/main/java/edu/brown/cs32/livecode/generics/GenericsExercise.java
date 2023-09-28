@@ -38,9 +38,9 @@ public class GenericsExercise {
         Collection<Object> someObjects = new HashSet<>();
 
         // Will these compile?
-//        sumAll(someNums);     // ?
-//        sumAll(someInts);     // ?
-//        sumAll(someObjects);  // ?
+        sumAll(someNums);   //yes
+        sumAll(someInts);     // nope - collection of integer is not a subtype of numbers
+        sumAll(someObjects);  // type error - nope
 
         // Will these compile?
 //        Collection<Number> someNums = new HashSet<>();
