@@ -43,14 +43,19 @@ public class GenericsExercise {
         sumAll(someObjects);  // type error - nope
 
         // Will these compile?
-//        Collection<Number> someNums = new HashSet<>();
-//        Number aNumber = sumAll(someNums);    // ?
-//        Integer anInteger = sumAll(someNums); // ?
-//        Object anObject = sumAll(someNums);   // ?
+        Collection<Number> someNums = new HashSet<>();
+        Number aNumber = sumAll(someNums);    // yah
+        Integer anInteger = sumAll(someNums); // nah
+        Object anObject = sumAll(someNums);   // yah
 
         // QUESTION: why do you think Java forbids what it forbids?
         //   what is the type system protecting you from?
 
+        /*
+        Mutation - most collects are mutable (order may or not matter)
+        Aliasing - two diff names for the same object
+        Names carry the types of variables
+         */
 
 
 
@@ -91,19 +96,19 @@ public class GenericsExercise {
         // This is a collection of SOME TYPE that extends Number.
         // Vitally, this is one type only. It just doesn't need to be Number.
         Collection< ? extends Number> someNums2 = new HashSet<>();
-        //someNums2.add(1);       // ?
-        //someNums2.add(1.5);     // ?
-        //someNums2.add(null);    // ?
-        //someNums2 = someNums;   // ?
+
+        // ? for the compiler to figure out + plug it in -> works for interfaces too
+        // ? extends Number == some type that the compiler can infer/figure out
 
 
+        //type casting won't work either
+        someNums2.add(1);       // nah
+        someNums2.add(1.5);     // nah
 
+        //compiler has constraint - compiler has to be able to pick the "thing" to substitute (not smart but speedy)
 
-
-
-
-
-
+        someNums2.add(null);    // yah
+        someNums2 = someNums;   // yah
 
         ////////////////////////////////////////////////////////////
         // So how are wildcards useful AT ALL?
